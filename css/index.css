@@ -1,0 +1,173 @@
+*{
+	box-sizing: border-box;
+ }
+
+body{
+	background-color: #dee0f5;
+}
+
+header{
+	background-color: #38609c;
+	height: 3em;
+	margin-bottom: 1em;
+}
+
+header h1{
+	font-size: 2em;
+	display:inline-block;
+	vertical-align:	middle;
+}
+
+header h2{
+	font-size: 3em;
+	display:inline-block;
+	vertical-align:	middle;
+	color: #ffffff;
+	font-family: 'Tangerine', cursive;
+}
+
+header .container:before{
+	content: '';
+	display:inline-block;
+	height: 100%;
+	vertical-align:	middle;
+}
+
+.container{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+	color: #000000;
+}
+
+section{
+	margin: 2em 0;
+	overflow: hidden;
+}
+
+section h2{
+	font-size: 3em;
+	display: block;
+	padding-bottom: .5em;
+	border-bottom: 1px solid #38609c;
+	margin-bottom: .5em;
+	font-family: 'Big Shoulders Inline Display', cursive;
+	letter-spacing: 5px;
+}
+
+table{
+	width: 100%;
+	margin-bottom : .5em;
+    table-layout: fixed;
+
+}
+
+td, th {
+	padding: .7em;
+	margin: 0;
+	border: 1px solid #000000;
+	color: #000000;
+	text-align: center;
+	font-family: 'REM', sans-serif;
+}
+
+th{
+	background-color: #000000;
+	color: #ffffff;
+}
+
+label{
+	color: #000000;
+	display: block;
+	margin-bottom: .2em;
+	font-family: 'REM', sans-serif;
+}
+
+.campo{
+	margin: 0;
+	padding-bottom: 1em;
+	width: 100%;
+	border: 1px solid #000000;
+	padding: .7em;
+	width: 100%;
+}
+
+.campo-medio{
+	display: inline-block;
+	padding-right: .5em;
+}
+
+.grupo{
+	width: 32%;
+	display: inline-block;
+	padding: 10px 0px;
+}
+
+button{
+	width: 150px;
+	height: 30px;
+	font-family: 'REM', sans-serif;
+	font-size: 14px;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: #38609c;
+	color: #ffffff;
+}
+
+button:hover {
+	background-color: #000000;
+	border: 2px solid #38609c;
+}
+
+button:active{
+	margin-top:0px;
+	border: 0;
+}
+
+button[disabled=disabled], button:disabled {
+    background-color: gray;
+	border-color: darkgray;
+
+}
+
+.adicionar-paciente{
+    margin-top: 30px;
+}
+
+.campo-invalido{
+	border: 1px solid #df6060;
+}
+
+.paciente-invalido {
+	background-color: #df6060;
+}
+
+#mensagens-erro {
+	color: #df6060;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+#filtrar-tabela {
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.invisivel {
+	display: none;
+}
+
+#filtrar-tabela, #nome, #peso, #altura, #gordura {
+	background-color: #dee0f5;
+	color: #000000;
+	border-radius: 10px;
+	border: 2px solid #000000;
+	font-size: 15px;
+	text-align: center;
+}
